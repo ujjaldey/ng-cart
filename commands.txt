@@ -1,0 +1,12 @@
+node -v
+npm install -g @angular/cli
+ng new ng-cart
+ng serve
+
+
+git init
+git remote add origin git@github.com:ujjaldey/ng-cart.git
+git pull origin master
+
+
+git push --set-upstream origin master
