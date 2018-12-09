@@ -10,11 +10,11 @@
     padding-bottom: 15px;
 }
 
-.custom-products-cart-containter {
+.custom-products-cart-container {
     padding-top: 20px;
 }
 
-.custom-products-cart-containter ul ul {
+.custom-products-cart-container ul ul {
     width: 75%;
     padding: 15%;
 }
@@ -33,4 +33,8 @@
 
 .card-block {
     padding: 1.25rem;
+}
+
+.dropdown-menu {
+    width: 250px !important;
 }

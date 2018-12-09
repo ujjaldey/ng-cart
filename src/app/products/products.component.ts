@@ -16,7 +16,7 @@ export class ProductsComponent implements OnInit {
   ngOnInit() {
     let data = localStorage.getItem('cart');
 
-    if (data) {
+    if (data != "null") {
       this.cartProducts = JSON.parse(data);
     } else {
       this.cartProducts = [];
@@ -83,7 +83,7 @@ export class ProductsComponent implements OnInit {
     let product = this.products[index];
     let cartData = [];
     let data = localStorage.getItem('cart');
-    if (data) {
+    if (data != "null") {
       cartData = JSON.parse(data);
     }
     cartData.push(product);
